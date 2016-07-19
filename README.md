@@ -2,6 +2,14 @@
 
 Razr is a powerful PHP template engine for PHP, whose syntax was inspired by ASP.NET Razor.
 
+Note: Additional features:
+1. Added String Directives. You can make a string helper fuction and use it. Eg:
+```php
+function string ($key, $language = "en-us"){
+    return $YourRealString;
+}
+```
+
 ## Usage
 
 Render a template:
